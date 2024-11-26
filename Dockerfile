@@ -8,6 +8,7 @@ RUN apt-get update \
     texlive-latex-base \
     texlive-latex-recommended \
     texlive-latex-extra \
+    texlive-lang-all \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
